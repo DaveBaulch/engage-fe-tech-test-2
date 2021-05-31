@@ -31,7 +31,7 @@
         <div class="xl:grid xl:grid-cols-12 mt-12 xl:mt-14 debug">
           <div class="xl:col-start-3 xl:col-span-8 xl:px-10 debug">
             <FeatureSkew />
-            <div
+            <FeaturePhone
               class="
                 absolute
                 top-1/2
@@ -39,9 +39,7 @@
                 transform
                 -translate-x-2/4 -translate-y-32
               "
-            >
-              <FeaturePhone />
-            </div>
+            />
           </div>
         </div>
 

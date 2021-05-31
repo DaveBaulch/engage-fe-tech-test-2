@@ -1,12 +1,16 @@
 <template>
   <div>
-    <div class="relative">
-      <img src="@/assets/phone/frame.png" class="absolute top-0 left-0" />
-      <video width="230" height="628" class="mask" autoplay muted>
+      <video
+        width="230"
+        height="628"
+        class="mask absolute t-0 r-"
+        autoplay
+        muted
+      >
         <source src="@/assets/video/walkthrough.mp4" type="video/mp4" />
       </video>
+      <img src="@/assets/phone/frame.png" class="absolute t-0 r-0 z-10" />
     </div>
-  </div>
 </template>
 
 <script>
