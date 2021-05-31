@@ -36,7 +36,6 @@ module.exports = {
         27.625: "27.625rem",
       },
       borderRadius: {
-        baseLink: "2.375rem",
       },
       colors: {
         midnight: "#26233B",

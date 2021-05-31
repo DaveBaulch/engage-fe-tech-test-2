@@ -16,8 +16,8 @@
             The App for Pubs and Bars
           </h1>
         </div>
-        <div class="text-center mt-5">
-          <BaseLink type="router-link" to="/" text="Get started" />
+        <div class="text-center">
+          <BaseLink type="router-link" to="/">Get started</BaseLink>
         </div>
         <div class="text-center">
           <p>Powered by <span class="uppercase">Heineken</span></p>

@@ -16,8 +16,8 @@
             The App for Pubs and Bars
           </h1>
         </div>
-        <div class="text-center mt-5">
-          <BaseLink type="router-link" to="/" text="Get started" />
+        <div class="text-center">
+          <BaseButton type="router-link" to="/">Get started</BaseButton>
         </div>
         <div class="text-center">
           <p>Powered by <span class="uppercase">Heineken</span></p>
@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import BaseLink from "@/components/BaseLink";
+import BaseLink from "@/components/LinkButton";
 import BaseIcon from "@/components/BaseIcon";
 import BasePill from "@/components/BasePill";
 import ComparissonList1 from "@/components/ComparissonList1";
@@ -80,7 +80,7 @@ import SpriteIcon from "@/components/SpriteIcon";
 export default {
   name: "Index",
   components: {
-    BaseLink,
+    BaseButton,
     BaseIcon,
     BasePill,
     FeatureArrow,

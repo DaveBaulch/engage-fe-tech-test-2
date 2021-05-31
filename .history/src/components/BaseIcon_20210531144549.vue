@@ -1,9 +1,9 @@
 <template>
-  <div>base button</div>
+  <div>base icon</div>
 </template>
 
 <script>
 export default {
-  name: "BaseButton",
+  name: "BaseIcon",
 };
 </script>

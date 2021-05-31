@@ -16,7 +16,7 @@
             The App for Pubs and Bars
           </h1>
         </div>
-        <div class="text-center mt-5">
+        <div class="text-center">
           <BaseLink type="router-link" to="/" text="Get started" />
         </div>
         <div class="text-center">
