@@ -21,7 +21,7 @@
           </div>
 
           <div class="xl:hidden">
-            <ComparissonTable />
+            <ComparissonList1 />
           </div>
 
           <div class="hidden xl:block xl:col-start-6 xl:col-span-3">
