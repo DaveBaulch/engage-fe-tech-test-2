@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+
+@layer base {
+  @font-face {
+    font-family: Intello-n5;
+    src: url(./assets/fonts/intello-n5.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: Intello-n7;
+    src: url(./assets/fonts/intello-n7.woff2) format("woff2");
+  }
+}
+
+@tailwind utilities;
+
+.debug {
+  //outline: 1px solid #f0f;
+}
