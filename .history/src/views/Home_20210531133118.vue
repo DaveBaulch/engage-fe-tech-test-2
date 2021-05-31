@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="container mx-auto debug">
+    <div class="container debug">
       <section>
         <div class="text-center">
           <h1>The App for Pubs and Bars</h1>
