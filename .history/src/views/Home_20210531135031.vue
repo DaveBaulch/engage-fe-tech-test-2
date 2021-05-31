@@ -36,17 +36,16 @@
     </div>
 
     <div class="hidden">
-      <BaseButton />
-      <BaseIcon />
-      <BasePill />
-      <FeatureArrow />
-      <FeaturePhone />
-      <FeatureRoundel />
-      <FeatureSkew />
-      <PageHeader />
-      <SpriteGradient />
-      <SpriteIcon />
-    </div>
+    <BaseButton />
+    <BaseIcon />
+    <BasePill />
+    <FeatureArrow />
+    <FeaturePhone />
+    <FeatureRoundel />
+    <FeatureSkew />
+    <PageHeader />
+    <SpriteGradient />
+    <SpriteIcon />
   </main>
 </template>
 

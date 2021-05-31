@@ -47,6 +47,7 @@
       <SpriteGradient />
       <SpriteIcon />
     </div>
+    
   </main>
 </template>
 

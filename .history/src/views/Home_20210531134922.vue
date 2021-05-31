@@ -1,5 +1,17 @@
 <template>
   <main>
+
+    <BaseButton />
+    <BaseIcon />
+    <BasePill />
+    <FeatureArrow />
+    <FeaturePhone />
+    <FeatureRoundel />
+    <FeatureSkew />
+    <PageHeader />
+    <SpriteGradient />
+    <SpriteIcon />
+
     <div class="container mx-auto debug">
       <section>
         <div class="text-center">
@@ -33,19 +45,6 @@
           </div>
         </div>
       </section>
-    </div>
-
-    <div class="hidden">
-      <BaseButton />
-      <BaseIcon />
-      <BasePill />
-      <FeatureArrow />
-      <FeaturePhone />
-      <FeatureRoundel />
-      <FeatureSkew />
-      <PageHeader />
-      <SpriteGradient />
-      <SpriteIcon />
     </div>
   </main>
 </template>

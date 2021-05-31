@@ -34,20 +34,18 @@
         </div>
       </section>
     </div>
-
-    <div class="hidden">
-      <BaseButton />
-      <BaseIcon />
-      <BasePill />
-      <FeatureArrow />
-      <FeaturePhone />
-      <FeatureRoundel />
-      <FeatureSkew />
-      <PageHeader />
-      <SpriteGradient />
-      <SpriteIcon />
-    </div>
   </main>
+
+  <BaseButton />
+  <BaseIcon />
+  <BasePill />
+  <FeatureArrow />
+  <FeaturePhone />
+  <FeatureRoundel />
+  <FeatureSkew />
+  <PageHeader />
+  <SpriteGradient />
+  <SpriteIcon />
 </template>
 
 <script>

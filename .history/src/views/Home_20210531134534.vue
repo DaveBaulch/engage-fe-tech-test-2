@@ -34,19 +34,6 @@
         </div>
       </section>
     </div>
-
-    <div class="hidden">
-      <BaseButton />
-      <BaseIcon />
-      <BasePill />
-      <FeatureArrow />
-      <FeaturePhone />
-      <FeatureRoundel />
-      <FeatureSkew />
-      <PageHeader />
-      <SpriteGradient />
-      <SpriteIcon />
-    </div>
   </main>
 </template>
 
@@ -61,11 +48,9 @@ import FeatureArrow from "@/components/FeatureArrow";
 import FeaturePhone from "@/components/FeaturePhone";
 import FeatureRoundel from "@/components/FeatureRoundel";
 import FeatureSkew from "@/components/FeatureSkew";
-import PageHeader from "@/components/PageHeader";
-import PillList from "@/components/PillList";
+import PageHeader from "@/components/PlansAndPricing";
 import PlansAndPricing from "@/components/PlansAndPricing";
-import SpriteGradient from "@/components/SpriteGradient";
-import SpriteIcon from "@/components/SpriteIcon";
+import PillList from "@/components/PillList";
 
 export default {
   name: "Index",
@@ -77,14 +62,11 @@ export default {
     FeaturePhone,
     FeatureRoundel,
     FeatureSkew,
-    PageHeader,
-    PillList,
     PlansAndPricing,
     ComparissonTable,
     ComparissonList1,
     ComparissonList2,
-    SpriteGradient,
-    SpriteIcon,
+    PillList,
   },
   metaInfo() {
     return {

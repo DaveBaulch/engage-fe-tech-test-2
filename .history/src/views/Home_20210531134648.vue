@@ -34,19 +34,6 @@
         </div>
       </section>
     </div>
-
-    <div class="hidden">
-      <BaseButton />
-      <BaseIcon />
-      <BasePill />
-      <FeatureArrow />
-      <FeaturePhone />
-      <FeatureRoundel />
-      <FeatureSkew />
-      <PageHeader />
-      <SpriteGradient />
-      <SpriteIcon />
-    </div>
   </main>
 </template>
 
@@ -66,6 +53,7 @@ import PillList from "@/components/PillList";
 import PlansAndPricing from "@/components/PlansAndPricing";
 import SpriteGradient from "@/components/SpriteGradient";
 import SpriteIcon from "@/components/SpriteIcon";
+
 
 export default {
   name: "Index",
