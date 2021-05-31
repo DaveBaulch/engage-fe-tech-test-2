@@ -63,9 +63,7 @@
           </div>
         </div>
 
-        <div class="px-1.125 md: px-0">
-          <PillList />
-        </div>
+        <PillList />
       </section>
 
       <section>
@@ -147,15 +145,13 @@ export default {
 
 <style>
 .main {
-  background-color: #f1f0fa;
-  @media only screen and (min-width: 1024px) {
-    background: linear-gradient(
-      to bottom,
-      #f1f0fa 806px,
-      #f1f0fa 806px,
-      white 806px,
-      white 100%
-    );
-  }
+  
+  background: linear-gradient(
+    to bottom,
+    #f1f0fa 806px,
+    #f1f0fa 806px,
+    white 806px,
+    white 100%
+  );
 }
 </style>

@@ -63,7 +63,7 @@
           </div>
         </div>
 
-        <div class="px-1.125 md: px-0">
+        <div class="px-1.125">
           <PillList />
         </div>
       </section>

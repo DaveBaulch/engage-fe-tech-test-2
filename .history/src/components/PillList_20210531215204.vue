@@ -4,19 +4,19 @@
       <li class="mb-2.5 xl:mb-0 xl:place-self-end xl:mr-32">
         <BasePill text="Order &amp; pay at table" class="pill" />
       </li>
-      <li class="mb-2.5 xl:mb-0 xl:place-self-start xl:ml-32">
+      <li class="mb-2.5 xl:mb-0xl:place-self-start xl:ml-32">
         <BasePill text="Increase your revenue" class="pill" />
       </li>
-      <li class="mb-2.5 xl:mb-0 xl:place-self-end xl:mr-44">
+      <li class="xl:place-self-end xl:mr-44">
         <BasePill text="Build customer loyalty" class="pill" />
       </li>
-      <li class="mb-2.5 xl:mb-0 xl:place-self-start xl:ml-44">
+      <li class="xl:place-self-start xl:ml-44">
         <BasePill text="Reservation management" class="pill" />
       </li>
-      <li class="mb-2.5 xl:mb-0 xl:place-self-end xl:mr-32">
+      <li class="xl:place-self-end xl:mr-32">
         <BasePill text="All-in-one solution" class="pill" />
       </li>
-      <li class="mb-2.5 xl:mb-0 xl:place-self-start xl:ml-32">
+      <li class="xl:place-self-start xl:ml-32">
         <BasePill text="Quick setup" class="pill" />
       </li>
     </ul>
