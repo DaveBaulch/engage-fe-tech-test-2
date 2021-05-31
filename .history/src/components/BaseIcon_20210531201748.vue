@@ -9,6 +9,7 @@
       relative
       w-1.625
       h-1.625
+      debug
     "
   >
     <SpriteIcon

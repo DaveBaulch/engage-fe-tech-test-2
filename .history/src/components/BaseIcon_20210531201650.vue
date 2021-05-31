@@ -3,12 +3,12 @@
     class="
       relative
       rounded-full
-      bg-gradient-to-b
-      from-lightLavender-light
-      to-lightLavender-dark
+      bg-gradient-to-r
+      from-red-500
       relative
       w-1.625
       h-1.625
+      debug
     "
   >
     <SpriteIcon

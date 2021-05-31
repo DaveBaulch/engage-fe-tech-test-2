@@ -1,15 +1,6 @@
 <template>
   <div
-    class="
-      relative
-      rounded-full
-      bg-gradient-to-b
-      from-lightLavender-light
-      to-lightLavender-dark
-      relative
-      w-1.625
-      h-1.625
-    "
+    class="relatibe rounded-full bg-appBlue relative w-20 h-20 xl:w-32 xl:h-32"
   >
     <SpriteIcon
       name="check"

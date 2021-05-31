@@ -1,6 +1,5 @@
 <template>
   <main>
-    <BaseIcon />
     <div class="container mx-auto debug">
       <section>
         <div class="text-center mt-12 xl:mt-22">
