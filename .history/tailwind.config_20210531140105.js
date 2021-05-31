@@ -15,19 +15,12 @@ module.exports = {
       },
     },
     extend: {
-      spacing: {
-        22: "5.1875rem",
-      },
       fontSize: {
-        "5.5xl": "3.125rem",
-        "7.5xl": "5rem",
+        "7": "5rem",
       },
       lineHeight: {
         11: "2.75rem",
         12: "3.375rem",
-      },
-      letterSpacing: {
-        minus2Percent: "-0.02rem",
       },
       width: {
         97.5: "97.5rem",

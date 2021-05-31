@@ -2,7 +2,7 @@
   <main>
     <div class="container mx-auto debug">
       <section>
-        <div class="text-center mt-12 xl:mt-22">
+        <div class="text-center">
           <h1
             class="
               font-sans-bold
@@ -10,7 +10,7 @@
               text-3xl
               xl:text-5.5xl
               leading-9
-              xl:leading-12
+              xl:leading-h1xl
             "
           >
             The App for Pubs and Bars

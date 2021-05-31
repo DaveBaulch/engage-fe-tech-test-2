@@ -15,9 +15,6 @@ module.exports = {
       },
     },
     extend: {
-      spacing: {
-        22: "5.1875rem",
-      },
       fontSize: {
         "5.5xl": "3.125rem",
         "7.5xl": "5rem",
@@ -27,8 +24,15 @@ module.exports = {
         12: "3.375rem",
       },
       letterSpacing: {
-        minus2Percent: "-0.02rem",
-      },
+       tightest: '-.075em',
+        tighter: '-.05em',
+       tight: '-.025em',
+        normal: '0',
+       wide: '.025em',
+        wider: '.05em',
+       widest: '.1em',
+       widest: '.25em',
+      }      
       width: {
         97.5: "97.5rem",
       },

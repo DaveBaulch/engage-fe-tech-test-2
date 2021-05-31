@@ -15,9 +15,7 @@ module.exports = {
       },
     },
     extend: {
-      spacing: {
-        22: "5.1875rem",
-      },
+      spc
       fontSize: {
         "5.5xl": "3.125rem",
         "7.5xl": "5rem",

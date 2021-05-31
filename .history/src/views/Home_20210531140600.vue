@@ -2,17 +2,8 @@
   <main>
     <div class="container mx-auto debug">
       <section>
-        <div class="text-center mt-12 xl:mt-22">
-          <h1
-            class="
-              font-sans-bold
-              tracking-minus2Percent
-              text-3xl
-              xl:text-5.5xl
-              leading-9
-              xl:leading-12
-            "
-          >
+        <div class="text-center">
+          <h1 class="font-sans-bold trackin- text-3xl xl:text-5.5xl">
             The App for Pubs and Bars
           </h1>
         </div>
