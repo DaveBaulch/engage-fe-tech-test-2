@@ -13,8 +13,8 @@ Vue.use(VueMeta);
 new Vue({
   router,
   created: function () {
-    const html = document.documentElement; // returns the html tag
-    html.setAttribute("lang", "en");
+ const html = document.documentElement; // returns the html tag
+ html.setAttribute("lang", "en");    
     document.body.classList.add("text-midnight");
   },
   // store,

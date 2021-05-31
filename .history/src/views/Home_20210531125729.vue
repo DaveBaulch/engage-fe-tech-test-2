@@ -94,7 +94,7 @@
       </table>
 
       <div class="hidden xl:block">
-        <h4>Swifty <span class="sr-only">Standard</span></h4>
+        <h4>Swifty</h4>
         <h5>Powered by <span class="uppercase">Heineken</span></h5>
         <ul role="list">
           <li>&pound;49 p/m No onboarding fee Payments 1% +10p</li>
@@ -107,7 +107,7 @@
       </div>
 
       <div class="hidden xl:block">
-        <h4>Swifty <span class="sr-only">Plus</span></h4>
+        <h4>Swifty</h4>
         <h5>Powered by <span class="uppercase">Heineken</span></h5>
         <ul role="list">
           <li>&pound;169 p/m No onboarding fee Payments 1% +10p</li>

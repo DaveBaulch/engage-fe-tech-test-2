@@ -27,12 +27,12 @@
         one month free.
       </p>
 
-      <table class="xl:hidden">
+      <table>
         <caption class="sr-only">
           Comparisson table
         </caption>
         <tr>
-          <td></td>
+          <th></th>
           <th>Swifty Standard</th>
           <th>Swifty Plus</th>
         </tr>
@@ -63,28 +63,28 @@
         </tr>
         <tr>
           <td>Reservation management</td>
-          <td>icon fade</td>
+          <td>icon</td>
           <td>icon</td>
         </tr>
         <tr>
           <td>Mailshot feature</td>
-          <td>icon fade</td>
+          <td>icon</td>
           <td>icon</td>
         </tr>
         <tr>
           <td>Take deposits for bookings</td>
-          <td>icon fade</td>
+          <td>icon</td>
           <td>icon</td>
         </tr>
         <tr>
           <td>Limit table bookings</td>
-          <td>icon fade</td>
+          <td>icon</td>
           <td>icon</td>
         </tr>
         <tr>
           <td>Offer gift cards</td>
-          <td>icon fade</td>
-          <td>icon fade</td>
+          <td>icon</td>
+          <td>icon</td>
         </tr>
         <tr>
           <td>No onboarding fee Payments 1% +10p</td>
@@ -93,8 +93,8 @@
         </tr>
       </table>
 
-      <div class="hidden xl:block">
-        <h4>Swifty <span class="sr-only">Standard</span></h4>
+      <div>
+        <h4>Swifty</h4>
         <h5>Powered by <span class="uppercase">Heineken</span></h5>
         <ul role="list">
           <li>&pound;49 p/m No onboarding fee Payments 1% +10p</li>
@@ -106,8 +106,8 @@
         </ul>
       </div>
 
-      <div class="hidden xl:block">
-        <h4>Swifty <span class="sr-only">Plus</span></h4>
+      <div>
+        <h4>Swifty</h4>
         <h5>Powered by <span class="uppercase">Heineken</span></h5>
         <ul role="list">
           <li>&pound;169 p/m No onboarding fee Payments 1% +10p</li>
@@ -122,6 +122,7 @@
           <li>Limit table bookings</li>
         </ul>
       </div>
+
     </section>
   </main>
 </template>
