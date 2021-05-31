@@ -19,7 +19,7 @@
         <div class="text-center mt-5">
           <BaseLink type="router-link" to="/" text="Get started" />
         </div>
-        <div class="text-center mt-5 xl:mt-12">
+        <div class="text-center">
           <SpriteIcon
             name="poweredByHeineken"
             ariaLabel="Powered by Heineken"

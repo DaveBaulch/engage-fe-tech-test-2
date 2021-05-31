@@ -30,16 +30,13 @@ module.exports = {
         minus2Percent: "-0.02rem",
       },
       width: {
-        9.5623: "9.5623rem",
-        12.125: "12.125rem",
         97.5: "97.5rem",
       },
       height: {
-        1.578125: "1.578125rem",
         27.625: "27.625rem",
       },
       borderRadius: {
-        baseLink: "2.375rem",
+        full: "2.375rem",
       },
       colors: {
         midnight: "#26233B",

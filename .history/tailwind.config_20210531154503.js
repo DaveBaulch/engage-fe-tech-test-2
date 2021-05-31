@@ -35,7 +35,6 @@ module.exports = {
         97.5: "97.5rem",
       },
       height: {
-        1.578125: "1.578125rem",
         27.625: "27.625rem",
       },
       borderRadius: {

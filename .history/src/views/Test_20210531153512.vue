@@ -22,6 +22,8 @@
     <SpriteIcon name="plus" class="text-cyan w-2/4" />
     <SpriteIcon name="poweredByHeineken" class="w-2/4" />
     <SpriteIcon name="poweredByHeinekenSolid" class="text-cyan w-2/4" />
+
+
     <h2 class="text-3xl">Font weights</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
