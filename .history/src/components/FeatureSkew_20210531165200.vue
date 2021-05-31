@@ -18,9 +18,9 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .skew {
-  transform: perspective(100em) translateX(-160px) rotateY(-40deg);
+  transform: perspective(100em) rotateY(-40deg);
   width: 126%;
   height: 34%;
 }

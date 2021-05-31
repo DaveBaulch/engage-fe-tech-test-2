@@ -8,8 +8,8 @@
       to-lightLavender-dark
       skew
       debug
-    "
-  ></div>
+    ">
+    </div>
 </template>
 
 <script>

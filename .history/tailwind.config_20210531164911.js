@@ -17,7 +17,7 @@ module.exports = {
     extend: {
       spacing: {
         22: "5.1875rem",
-        skew: "62.5%",
+        skew: "77%",
       },
       fontSize: {
         "5.5xl": "3.125rem",

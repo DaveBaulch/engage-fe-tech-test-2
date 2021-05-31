@@ -20,7 +20,7 @@ export default {
 
 <style>
 .skew {
-  transform: perspective(100em) translateX(-160px) rotateY(-40deg);
+  transform: perspective(100em) translateX(-40px) rotateY(-40deg);
   width: 126%;
   height: 34%;
 }

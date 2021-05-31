@@ -27,13 +27,7 @@
             class="w-9.5625 xl:w-12.125 h-5 xl:h-1.578125 inline-block"
           />
         </div>
-
-        <div class="xl:grid xl:grid-cols-12 mt-12 xl:mt-14 debug">
-          <div class="xl:col-start-3 xl:col-span-8 xl:px-10 debug">
-            <FeatureSkew />
-          </div>
-        </div>
-
+        
         <PillList />
       </section>
 

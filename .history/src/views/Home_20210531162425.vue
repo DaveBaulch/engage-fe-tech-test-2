@@ -29,7 +29,7 @@
         </div>
 
         <div class="xl:grid xl:grid-cols-12 mt-12 xl:mt-14 debug">
-          <div class="xl:col-start-3 xl:col-span-8 xl:px-10 debug">
+          <div class="xl:col-start-3 xl:col-span-8 xl-p-9 debug">
             <FeatureSkew />
           </div>
         </div>

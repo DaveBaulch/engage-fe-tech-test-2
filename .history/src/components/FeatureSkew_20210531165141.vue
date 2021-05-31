@@ -6,7 +6,6 @@
       bg-gradient-to-r
       from-lightLavender-light
       to-lightLavender-dark
-      skew
       debug
     "
   ></div>
@@ -18,10 +17,11 @@ export default {
 };
 </script>
 
-<style>
-.skew {
-  transform: perspective(100em) translateX(-160px) rotateY(-40deg);
-  width: 126%;
-  height: 34%;
-}
-</style>
+<style scoped>
+    .skew{
+      
+    }
+        transform: perspective(100em) rotateY(-40deg);
+        width: 126%;
+        height: 34%;
+      "</style>

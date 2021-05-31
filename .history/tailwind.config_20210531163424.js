@@ -17,7 +17,7 @@ module.exports = {
     extend: {
       spacing: {
         22: "5.1875rem",
-        skew: "62.5%",
+        skew: "77%",
       },
       fontSize: {
         "5.5xl": "3.125rem",
@@ -41,7 +41,7 @@ module.exports = {
       },
       borderRadius: {
         baseLink: "2.375rem",
-        featureSkew: "2.5rem",
+        baseLink: "2.375rem",
       },
       colors: {
         midnight: "#26233B",

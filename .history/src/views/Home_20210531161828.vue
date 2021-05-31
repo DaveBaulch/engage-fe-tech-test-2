@@ -28,9 +28,9 @@
           />
         </div>
 
-        <div class="xl:grid xl:grid-cols-12 mt-12 xl:mt-14 debug">
-          <div class="xl:col-start-3 xl:col-span-8 xl:px-10 debug">
-            <FeatureSkew />
+        <div class="xl:grid xl:grid-cols-12 debug">
+          <div class="x:col-start-3 xl:col-span-8 debug">
+            <FeatureSkew />>
           </div>
         </div>
 
