@@ -147,7 +147,7 @@ export default {
 
 <style>
 .main {
-  background-color: #f1f0fa;
+
 }
 
 @media only screen and (min-width: 1024px) {
