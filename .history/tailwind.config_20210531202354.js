@@ -16,8 +16,6 @@ module.exports = {
     },
     extend: {
       spacing: {
-        5.5: "1.59375rem",
-        21.25: "21.25rem",
         22: "5.1875rem",
         skew: "62.5%",
         850: "850px",
@@ -46,7 +44,7 @@ module.exports = {
       },
       borderRadius: {
         baseLink: "2.375rem",
-        basePill: "1.4375rem",
+        basePill: "2.375rem",
         featureSkew: "2.5rem",
       },
       colors: {

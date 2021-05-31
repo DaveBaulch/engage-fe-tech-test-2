@@ -17,7 +17,6 @@ module.exports = {
     extend: {
       spacing: {
         5.5: "1.59375rem",
-        21.25: "21.25rem",
         22: "5.1875rem",
         skew: "62.5%",
         850: "850px",

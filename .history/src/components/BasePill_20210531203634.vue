@@ -9,6 +9,7 @@
         px-5.5
         py-5
         rounded-basePill
+        debug
       "
     >
       <span class="flex flex-col align-center justify-center mr-4">

@@ -1,22 +1,21 @@
 <template>
-  <span class="inline-block">
     <span
       class="
         flex flex-row
-        justify-left
-        bg-white
-        w-21.25
-        px-5.5
-        py-5
+        justify-center
+        bg-mignight
+        px-10
+        py-6
         rounded-basePill
+        debug
       "
     >
-      <span class="flex flex-col align-center justify-center mr-4">
+      <span class="text-white text-lg font-bold">{{ text }}</span>
+      <span class="flex flex-col align-center justify-center ml-2">
         <BaseIcon />
       </span>
-      <span class="text-midnight text-lg font-bold">{{ text }}</span>
     </span>
-  </span>
+  </div>
 </template>
 
 <script>

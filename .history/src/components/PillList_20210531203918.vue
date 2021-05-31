@@ -12,12 +12,12 @@
 </template>
 
 <script>
-import BasePill from "@/components/BasePill";
-
 export default {
+  import BasePill from "@/components/BasePill";
+
   name: "PillList",
-  components: {
-    BasePill,
-  },
+  coponents: {
+    BasePill
+  }
 };
 </script>

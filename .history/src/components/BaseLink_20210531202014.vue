@@ -19,7 +19,7 @@
       </span>
     </span>
   </router-link>
-  <a v-else-if="type === 'link'" :href="to" class="inline-block">
+  <a v-else-if="type === 'link'" :href="to" class="">
     <span
       class="
         flex flex-row

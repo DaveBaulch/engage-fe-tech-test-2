@@ -1,5 +1,7 @@
 <template>
   <main>
+    <BaseIcon />
+    <BasePill text="Order & pay at table" />
     <div class="container mx-auto debug">
       <section>
         <div class="text-center mt-12 xl:mt-22">

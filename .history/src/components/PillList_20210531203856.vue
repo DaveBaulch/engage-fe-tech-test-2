@@ -1,9 +1,9 @@
 <template>
   <div>
     <ul role="list">
+      <li><BasePill text="Order &amp; pay at table" />Order &amp; pay at table</li>
       <li><BasePill text="Order &amp; pay at table" /></li>
-      <li><BasePill text="Increase your revenue" /></li>
-      <li><BasePill text="Build customer loyalty" /></li>
+      <li<BasePill text="Build customer loyalty" /></li>
       <li><BasePill text="Reservation management" /></li>
       <li><BasePill text="All-in-one solution" /></li>
       <li><BasePill text="Quick setup" /></li>
@@ -12,12 +12,12 @@
 </template>
 
 <script>
-import BasePill from "@/components/BasePill";
-
 export default {
+  import BasePill from "@/components/BasePill";
+
   name: "PillList",
-  components: {
-    BasePill,
-  },
+  coponents: {
+    BasePill
+  }
 };
 </script>

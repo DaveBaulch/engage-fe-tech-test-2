@@ -16,7 +16,7 @@ import BasePill from "@/components/BasePill";
 
 export default {
   name: "PillList",
-  components: {
+  coponents: {
     BasePill,
   },
 };

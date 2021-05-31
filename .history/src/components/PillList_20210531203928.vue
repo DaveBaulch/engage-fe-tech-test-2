@@ -13,11 +13,12 @@
 
 <script>
 import BasePill from "@/components/BasePill";
-
 export default {
+  
+
   name: "PillList",
-  components: {
-    BasePill,
-  },
+  coponents: {
+    BasePill
+  }
 };
 </script>
