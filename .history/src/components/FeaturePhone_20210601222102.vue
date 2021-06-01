@@ -5,7 +5,7 @@
         src="@/assets/phone/frame.png"
         class="absolute top-0 left-0 img"
         alt=""
-        aria-hidden="true"
+        role="hidden"
       />
       <video width="152" height="416" class="mask" autoplay muted>
         <source src="@/assets/video/walkthrough.mp4" type="video/mp4" />
@@ -16,8 +16,7 @@
       <img
         src="@/assets/phone/frame.png"
         class="absolute top-0 left-0"
-        alt=""
-        aria-hidden="true"
+        role="hidden"
       />
       <video width="230" height="628" class="mask2" autoplay muted>
         <source src="@/assets/video/walkthrough.mp4" type="video/mp4" />

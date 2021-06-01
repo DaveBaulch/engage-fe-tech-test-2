@@ -45,7 +45,7 @@
                     md:scale-100
                     lg:scale-68
                     xl:scale-100
-                  "
+                  "                  
                   aria-hidden="true"
                 >
                   <SpriteIcon

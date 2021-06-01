@@ -46,19 +46,12 @@
                     lg:scale-68
                     xl:scale-100
                   "
-                  aria-hidden="true"
                 >
-                  <SpriteIcon
-                    name="beer"
-                    class="text-cyan w-20"
-                    alt=""
-                    role="hidden"
-                  />
+                  <SpriteIcon name="beer" class="text-cyan w-20" />
                 </FeatureRoundel>
               </div>
 
               <FeatureSkew aria-hidden="true" />
-
               <div
                 class="
                   absolute
@@ -68,10 +61,7 @@
                   -translate-x-2/4 -translate-y-2/4
                 "
               >
-                <FeaturePhone
-                  class="transform sm:scale-80 md:scale-100"
-                  aria-label="Video - phone app walkthrough"
-                />
+                <FeaturePhone class="transform sm:scale-80 md:scale-100" />
               </div>
 
               <div
@@ -93,14 +83,8 @@
                     lg:scale-68
                     xl:scale-100
                   "
-                  aria-hidden="true"
                 >
-                  <img
-                    src="../assets/icon/people.png"
-                    class="w-20"
-                    alt=""
-                    aria-hidden="true"
-                  />
+                  <img src="../assets/icon/people.png" class="w-20" />
                 </FeatureRoundel>
               </div>
             </div>

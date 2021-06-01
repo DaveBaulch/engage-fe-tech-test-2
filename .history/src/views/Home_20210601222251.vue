@@ -99,7 +99,7 @@
                     src="../assets/icon/people.png"
                     class="w-20"
                     alt=""
-                    aria-hidden="true"
+                    role="hidden"
                   />
                 </FeatureRoundel>
               </div>

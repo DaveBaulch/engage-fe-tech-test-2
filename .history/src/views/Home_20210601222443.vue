@@ -45,8 +45,8 @@
                     md:scale-100
                     lg:scale-68
                     xl:scale-100
-                  "
-                  aria-hidden="true"
+                  "                  
+                aria-hidden="true"
                 >
                   <SpriteIcon
                     name="beer"
@@ -99,7 +99,7 @@
                     src="../assets/icon/people.png"
                     class="w-20"
                     alt=""
-                    aria-hidden="true"
+                    role="hidden"
                   />
                 </FeatureRoundel>
               </div>

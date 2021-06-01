@@ -7,6 +7,7 @@
         alt=""
         aria-hidden="true"
       />
+      />
       <video width="152" height="416" class="mask" autoplay muted>
         <source src="@/assets/video/walkthrough.mp4" type="video/mp4" />
       </video>

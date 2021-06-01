@@ -48,12 +48,7 @@
                   "
                   aria-hidden="true"
                 >
-                  <SpriteIcon
-                    name="beer"
-                    class="text-cyan w-20"
-                    alt=""
-                    role="hidden"
-                  />
+                  <SpriteIcon name="beer" class="text-cyan w-20" />
                 </FeatureRoundel>
               </div>
 
@@ -70,7 +65,7 @@
               >
                 <FeaturePhone
                   class="transform sm:scale-80 md:scale-100"
-                  aria-label="Video - phone app walkthrough"
+                  aria-label="Phone app demonstration"
                 />
               </div>
 
@@ -95,12 +90,7 @@
                   "
                   aria-hidden="true"
                 >
-                  <img
-                    src="../assets/icon/people.png"
-                    class="w-20"
-                    alt=""
-                    aria-hidden="true"
-                  />
+                  <img src="../assets/icon/people.png" class="w-20" />
                 </FeatureRoundel>
               </div>
             </div>
