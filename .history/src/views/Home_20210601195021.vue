@@ -61,7 +61,9 @@
                   -translate-x-2/4 -translate-y-2/4
                 "
               >
-                <FeaturePhone class="transform sm:scale-80 md:scale-100" />
+                <FeaturePhone
+                  class="transform scale-66 sm:scale-80 md:scale-100"
+                />
               </div>
 
               <div

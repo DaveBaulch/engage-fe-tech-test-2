@@ -7,7 +7,7 @@
       </video>
     </div>
 
-    <div class="relative hidden sm:block">
+    <div class="relative sm:visible">
       <img src="@/assets/phone/frame.png" class="absolute top-0 left-0" />
       <video width="230" height="628" class="mask2" autoplay muted>
         <source src="@/assets/video/walkthrough.mp4" type="video/mp4" />
