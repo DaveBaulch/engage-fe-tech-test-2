@@ -1,7 +1,7 @@
 <template>
   <main class="w-full overflow-hidden main">
     <div class="container m-auto debug">
-      <section>
+      <section class="relative">
         <div class="text-center pt-12 xl:pt-22">
           <h1
             class="
@@ -93,17 +93,7 @@
           </div>
         </div>
 
-        <div
-          class="
-            px-1.125
-            md:px-0
-            mt-24
-            lg:mt-0
-            lg:transform
-            lg:-translate-y-120
-            xl:-translate-y-130
-          "
-        >
+        <div class="px-1.125 md:px-0 mt-24 lg:mt-0 z-20">
           <PillList />
         </div>
       </section>

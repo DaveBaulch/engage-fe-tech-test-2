@@ -99,9 +99,9 @@
             md:px-0
             mt-24
             lg:mt-0
-            lg:transform
-            lg:-translate-y-120
-            xl:-translate-y-130
+            md:transform
+            md:-translate-y-120
+            lg:-translate-y-130
           "
         >
           <PillList />

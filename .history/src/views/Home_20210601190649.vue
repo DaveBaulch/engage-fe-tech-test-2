@@ -32,21 +32,13 @@
           <div class="lg:grid lg:grid-cols-12">
             <div class="lg:col-start-3 lg:col-span-8 lg:px-10 debug relative">
               <div
-                class="absolute debug -top-72 -left-71 md:-top-25 md:-left-87.5"
+                class="absolute debug -top-72 -left-71 md:-top-25 sm:-left-87.5"
               >
                 <FeatureArrow class="transform scale-62 md:scale-100 z-10" />
               </div>
 
               <div class="absolute -right-24 -top-32 md:-right-16 z-10 debug">
-                <FeatureRoundel
-                  class="
-                    transform
-                    scale-68
-                    md:scale-100
-                    lg:scale-68
-                    xl:scale-100
-                  "
-                >
+                <FeatureRoundel class="transform scale-68 md:scale-100">
                   <SpriteIcon name="beer" class="text-cyan w-20" />
                 </FeatureRoundel>
               </div>
@@ -93,17 +85,7 @@
           </div>
         </div>
 
-        <div
-          class="
-            px-1.125
-            md:px-0
-            mt-24
-            lg:mt-0
-            lg:transform
-            lg:-translate-y-120
-            xl:-translate-y-130
-          "
-        >
+        <div class="px-1.125 md:px-0 mt-24 lg:mt-0">
           <PillList />
         </div>
       </section>

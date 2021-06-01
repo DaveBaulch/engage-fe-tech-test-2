@@ -100,8 +100,7 @@
             mt-24
             lg:mt-0
             lg:transform
-            lg:-translate-y-120
-            xl:-translate-y-130
+            lg:-translate-y-pills
           "
         >
           <PillList />

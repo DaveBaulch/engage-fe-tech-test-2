@@ -38,15 +38,7 @@
               </div>
 
               <div class="absolute -right-24 -top-32 md:-right-16 z-10 debug">
-                <FeatureRoundel
-                  class="
-                    transform
-                    scale-68
-                    md:scale-100
-                    lg:scale-68
-                    xl:scale-100
-                  "
-                >
+                <FeatureRoundel class="transform scale-68 md:scale-100">
                   <SpriteIcon name="beer" class="text-cyan w-20" />
                 </FeatureRoundel>
               </div>
@@ -61,9 +53,7 @@
                   -translate-x-2/4 -translate-y-2/4
                 "
               >
-                <FeaturePhone
-                  class="transform scale-66 sm:scale-80 md:scale-100"
-                />
+                <FeaturePhone class="transform scale-66 sm:scale-100 md:scale-100" />
               </div>
 
               <div
@@ -77,15 +67,7 @@
                   debug
                 "
               >
-                <FeatureRoundel
-                  class="
-                    transform
-                    scale-68
-                    md:scale-100
-                    lg:scale-68
-                    xl:scale-100
-                  "
-                >
+                <FeatureRoundel class="transform scale-68 md:scale-100">
                   <img src="../assets/icon/people.png" class="w-20" />
                 </FeatureRoundel>
               </div>
@@ -93,17 +75,7 @@
           </div>
         </div>
 
-        <div
-          class="
-            px-1.125
-            md:px-0
-            mt-24
-            lg:mt-0
-            lg:transform
-            lg:-translate-y-120
-            xl:-translate-y-130
-          "
-        >
+        <div class="px-1.125 md:px-0 mt-24 lg:mt-0">
           <PillList />
         </div>
       </section>

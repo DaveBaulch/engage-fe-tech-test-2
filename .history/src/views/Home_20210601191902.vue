@@ -93,17 +93,7 @@
           </div>
         </div>
 
-        <div
-          class="
-            px-1.125
-            md:px-0
-            mt-24
-            lg:mt-0
-            lg:transform
-            lg:-translate-y-120
-            xl:-translate-y-130
-          "
-        >
+        <div class="px-1.125 md:px-0 mt-24 lg:mt-0   <div class="lg:transform lg:-translate-y-pills">">
           <PillList />
         </div>
       </section>
