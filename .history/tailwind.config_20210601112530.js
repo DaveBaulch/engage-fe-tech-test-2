@@ -52,7 +52,8 @@ module.exports = {
         basePill: "2.0625rem",
         featureSkew: "2.5rem",
       },
-      scale: {},
+      scale: {
+      },    
       colors: {
         midnight: "#26233B",
         appBlue: "#604BF3",
