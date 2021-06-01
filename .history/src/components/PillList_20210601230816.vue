@@ -52,7 +52,7 @@ export default {
               },
             }
           )
-          .delay(1);
+          .delay(0.5);
       }
     },
   },
