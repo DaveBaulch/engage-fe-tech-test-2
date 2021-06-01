@@ -62,13 +62,10 @@
               <div
                 class="
                   absolute
-                  top-0
-                  left-0
-                  w-full
-                  h-full
-                  flex
-                  justify-center
-                  items-center
+                  <!-- top-1/2
+                  left-1/2
+                  transform
+                  -translate-x-2/4 -translate-y-2/4 -->
                   debug
                 "
               >

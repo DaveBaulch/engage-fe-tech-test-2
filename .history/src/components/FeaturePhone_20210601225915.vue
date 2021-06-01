@@ -1,5 +1,5 @@
 <template>
-  <div class="phone">
+  <div>
     <div class="relative sm:hidden">
       <img
         src="@/assets/phone/frame.png"
@@ -27,34 +27,33 @@
 </template>
 
 <script>
-import prefersReducedMotion from "@/mixins/prefersReducedMotion";
-import gsap from "gsap";
-
 export default {
   name: "FeaturePhone",
-  mixins: [prefersReducedMotion],
-  methods: {
-    animatePhone() {
+methods: {
+    animatePh() {
       const animationIsOkay = this.prefersReducedMotion();
       if (animationIsOkay) {
-        gsap
-          .fromTo(
-            ".phone",
-            {
-              opacity: 0,
+        gsap.fromTo(
+          ".pill",
+          {
+            x: -40,
+            opacity: 0,
+          },
+          {
+            x: 0,
+            opacity: 0.95,
+            duration: 1,
+            stagger: {
+              each: 0.5,
             },
-            {
-              opacity: 1,
-              duration: 1,
-            }
-          )
-          .delay(0.5);
+          }
+        );
       }
     },
   },
   mounted() {
     this.animatePhone();
-  },
+  },  
 };
 </script>
 

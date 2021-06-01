@@ -41,14 +41,16 @@ export default {
           .fromTo(
             ".phone",
             {
+
               opacity: 0,
             },
             {
+              y: 0,
               opacity: 1,
               duration: 1,
             }
           )
-          .delay(0.5);
+          .delay(1);
       }
     },
   },

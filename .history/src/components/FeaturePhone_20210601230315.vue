@@ -37,18 +37,18 @@ export default {
     animatePhone() {
       const animationIsOkay = this.prefersReducedMotion();
       if (animationIsOkay) {
-        gsap
-          .fromTo(
-            ".phone",
-            {
-              opacity: 0,
-            },
-            {
-              opacity: 1,
-              duration: 1,
-            }
-          )
-          .delay(0.5);
+        gsap.fromTo(
+          ".phone",
+          {
+            y: -20,
+            opacity: 0,
+          },
+          {
+            y: 0,
+            opacity: 1,
+            duration: 2,
+          }
+        );
       }
     },
   },

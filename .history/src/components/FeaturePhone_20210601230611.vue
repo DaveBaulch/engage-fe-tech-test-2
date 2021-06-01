@@ -48,7 +48,7 @@ export default {
               duration: 1,
             }
           )
-          .delay(0.5);
+          .delay(0.25);
       }
     },
   },

@@ -32,23 +32,23 @@ import gsap from "gsap";
 
 export default {
   name: "FeaturePhone",
-  mixins: [prefersReducedMotion],
+   mixins: [prefersReducedMotion],
   methods: {
     animatePhone() {
       const animationIsOkay = this.prefersReducedMotion();
       if (animationIsOkay) {
-        gsap
-          .fromTo(
-            ".phone",
-            {
-              opacity: 0,
-            },
-            {
-              opacity: 1,
-              duration: 1,
-            }
-          )
-          .delay(0.5);
+        gsap.fromTo(
+          ".phone",
+          {
+            x: -40,
+            opacity: 0,
+          },
+          {
+            x: 0,
+            opacity: 1,
+            duration: 1,
+          }
+        );
       }
     },
   },

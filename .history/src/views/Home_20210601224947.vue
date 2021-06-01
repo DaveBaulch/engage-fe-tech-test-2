@@ -59,19 +59,7 @@
 
               <FeatureSkew aria-hidden="true" />
 
-              <div
-                class="
-                  absolute
-                  top-0
-                  left-0
-                  w-full
-                  h-full
-                  flex
-                  justify-center
-                  items-center
-                  debug
-                "
-              >
+              <div class="absolute w-full h-full flex debug">
                 <FeaturePhone
                   class="transform sm:scale-80 md:scale-100"
                   aria-label="Video - phone app walkthrough"
