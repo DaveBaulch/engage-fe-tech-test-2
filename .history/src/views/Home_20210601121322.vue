@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full overflow-hidden main">
+  <main class="w-full main">
     <div class="container m-auto debug">
       <section>
         <div class="text-center pt-12 xl:pt-22">
@@ -31,15 +31,13 @@
         <div class="mt-24 md:mt-36">
           <div class="xl:grid xl:grid-cols-12">
             <div class="xl:col-start-3 xl:col-span-8 xl:px-10 debug relative">
-              <div
-                class="absolute debug -top-72 -left-71 md:-top-25 md:-left-87.5"
-              >
+              <div class="absolute debug" style="top: -360px; left: -1400px">
                 <FeatureArrow class="transform scale-62 md:scale-100 z-10" />
               </div>
 
-              <div class="absolute -right-24 -top-32 md:-right-16 z-10 debug">
-                <FeatureRoundel class="transform scale-68 md:scale-100">
-                  <SpriteIcon name="beer" class="text-cyan w-20" />
+              <div class="absolute -top-32 -right-16 z-10 debug">
+                <FeatureRoundel>
+                  <SpriteIcon name="beer" class="text-cyan w-12 xl:w-20" />
                 </FeatureRoundel>
               </div>
 
@@ -56,26 +54,16 @@
                 <FeaturePhone class="transform scale-66 md:scale-100" />
               </div>
 
-              <div
-                class="
-                  absolute
-                  -bottom-24
-                  md:-bottom-44
-                  -left-28
-                  md:-left-16
-                  z-10
-                  debug
-                "
-              >
+              <div class="absolute -bottom-44 -left-16 z-10 debug">
                 <FeatureRoundel class="transform scale-68 md:scale-100">
-                  <img src="../assets/icon/people.png" class="w-20" />
-                </FeatureRoundel>
+                <img src="../assets/icon/people.png" class="w-12 xl:w-20" />
+                <FeatureRoundel>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="px-1.125 md:px-0 mt-24 md:mt-0">
+        <div class="px-1.125 md:px-0 mt-5.5 md-mt:0">
           <PillList />
         </div>
       </section>

@@ -8,10 +8,9 @@
       to-lightLavender-dark
       skew
       debug
-      scale-63
-      md-scale-100
-      ml-16
-      md:ml-0
+      
+      
+
     "
   ></div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full overflow-hidden main">
+  <main class="w-full main">
     <div class="container m-auto debug">
       <section>
         <div class="text-center pt-12 xl:pt-22">
@@ -31,9 +31,7 @@
         <div class="mt-24 md:mt-36">
           <div class="xl:grid xl:grid-cols-12">
             <div class="xl:col-start-3 xl:col-span-8 xl:px-10 debug relative">
-              <div
-                class="absolute debug -top-72 -left-71 md:-top-25 md:-left-87.5"
-              >
+              <div class="absolute debug md:top-22.5; left: -1400px">
                 <FeatureArrow class="transform scale-62 md:scale-100 z-10" />
               </div>
 
@@ -75,7 +73,7 @@
           </div>
         </div>
 
-        <div class="px-1.125 md:px-0 mt-24 md:mt-0">
+        <div class="px-1.125 md:px-0 mt-24 md-mt:0">
           <PillList />
         </div>
       </section>

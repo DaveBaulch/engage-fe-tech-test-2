@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full overflow-hidden main">
+  <main class="w-full main">
     <div class="container m-auto debug">
       <section>
         <div class="text-center pt-12 xl:pt-22">

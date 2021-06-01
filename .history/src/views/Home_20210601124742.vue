@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full overflow-hidden main">
+  <main class="w-full main">
     <div class="container m-auto debug">
       <section>
         <div class="text-center pt-12 xl:pt-22">
@@ -75,7 +75,7 @@
           </div>
         </div>
 
-        <div class="px-1.125 md:px-0 mt-24 md:mt-0">
+        <div class="px-1.125 md:px-0 mt-24">
           <PillList />
         </div>
       </section>

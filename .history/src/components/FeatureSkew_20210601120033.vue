@@ -9,9 +9,8 @@
       skew
       debug
       scale-63
-      md-scale-100
-      ml-16
-      md:ml-0
+      xl-scale-100
+      m-16
     "
   ></div>
 </template>

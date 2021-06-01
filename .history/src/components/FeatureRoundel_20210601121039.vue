@@ -4,7 +4,17 @@
       name="dashCircle"
       class="text-cyan absolute top-0 left-0 w-full h-full circle"
     />
-    <div class="flex flex-row justify-center items-center w-56 h-56">
+    <div
+      class="
+        flex flex-row
+        justify-center
+        items-center
+        w-40
+        h-40
+        xl:w-56
+        xl:h-56
+      "
+    >
       <div
         class="
           rounded-full
@@ -12,8 +22,10 @@
           flex flex-row
           justify-center
           items-center
-          w-32
-          h-32
+          w-20
+          h-20
+          xl:w-32
+          :h-32
         "
       >
         <slot></slot>
