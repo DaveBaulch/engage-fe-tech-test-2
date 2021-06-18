@@ -1,17 +1,8 @@
 <template>
-  <div class="md:shadow-2xl rounded-bl-md rounded-br-md pb-10">
+  <div class="pb-10 md:shadow-2xl rounded-bl-md rounded-br-md">
     <div class="relative overflow-hidden">
       <div
-        class="
-          bg-gradient-to-r
-          from-lightLavender-light
-          to-lightLavender-dark
-          rounded-tl-md rounded-tr-md
-          pt-12
-          pb-12
-          pl-10
-          pr-10
-        "
+        class="pt-12 pb-12 pl-10 pr-10  bg-gradient-to-r from-lightLavender-light to-lightLavender-dark rounded-tl-md rounded-tr-md"
       >
         <h4>
           <SpriteIcon
@@ -24,7 +15,7 @@
             name="plus"
             ariaLabel="Plus"
             ariaHidden="true"
-            class="mb-7 inline-block w-6 h-6 ml-1 leading-none text-white"
+            class="inline-block w-6 h-6 ml-1 leading-none text-white mb-7"
           />
           <span class="sr-only">Swifty Plus</span>
         </h4>
@@ -46,17 +37,7 @@
           <span class="sr-only">Powered by Heineken</span>
         </h5>
         <div
-          class="
-            top-full
-            -left-0
-            absolute
-            w-full
-            h-full
-            origin-bottom-left
-            transform
-            -skew-y-6
-            bg-white
-          "
+          class="absolute w-full h-full origin-bottom-left transform -skew-y-6 bg-white  top-full -left-0"
           aria-hidden="true"
         />
       </div>

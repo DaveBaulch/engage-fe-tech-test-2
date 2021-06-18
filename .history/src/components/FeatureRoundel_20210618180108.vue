@@ -2,20 +2,11 @@
   <div class="relative">
     <SpriteIcon
       name="dashCircle"
-      class="text-cyan circle absolute top-0 left-0 w-full h-full"
+      class="absolute top-0 left-0 w-full h-full text-cyan circle"
     />
     <div class="flex flex-row items-center justify-center w-56 h-56">
       <div
-        class="
-          bg-appBlue
-          flex flex-row
-          items-center
-          justify-center
-          w-32
-          h-32
-          rounded-full
-          shadow-2xl
-        "
+        class="flex flex-row items-center justify-center w-32 h-32 rounded-full shadow-2xl  bg-appBlue"
       >
         <slot></slot>
       </div>

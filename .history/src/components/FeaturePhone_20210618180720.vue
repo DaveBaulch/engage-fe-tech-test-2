@@ -1,9 +1,9 @@
 <template>
   <div class="phone">
-    <div class="sm:hidden relative">
+    <div class="relative sm:hidden">
       <img
         src="@/assets/phone/frame.png"
-        class="img absolute top-0 left-0"
+        class="absolute top-0 left-0 img"
         alt=""
         aria-hidden="true"
       />
@@ -12,7 +12,7 @@
       </video>
     </div>
 
-    <div class="sm:block relative hidden">
+    <div class="relative hidden sm:block">
       <img
         src="@/assets/phone/frame.png"
         class="absolute top-0 left-0"

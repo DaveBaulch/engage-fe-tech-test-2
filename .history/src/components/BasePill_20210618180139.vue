@@ -11,10 +11,10 @@
         md:shadow-2xl
       "
     >
-      <span class="align-center flex flex-col justify-center mr-4">
+      <span class="flex flex-col justify-center mr-4 align-center">
         <BaseTickIcon />
       </span>
-      <span class="text-midnight text-lg font-bold">{{ text }}</span>
+      <span class="text-lg font-bold text-midnight">{{ text }}</span>
     </span>
   </span>
 </template>

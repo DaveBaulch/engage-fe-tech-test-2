@@ -2,16 +2,16 @@
   <router-link v-if="type === 'router-link'" :to="to" class="inline-block">
     <span
       class="
-        bg-midnight
-        rounded-baseLink
         flex flex-row
         justify-center
         px-10
         py-6
+        bg-midnight
+        rounded-baseLink
       "
     >
       <span class="text-lg font-bold text-white">{{ text }}</span>
-      <span class="align-center flex flex-col justify-center ml-2">
+      <span class="flex flex-col justify-center ml-2 align-center">
         <SpriteIcon
           name="chevronRight"
           class="text-lightLavender-light w-1.5 h-3"
@@ -22,16 +22,16 @@
   <a v-else-if="type === 'link'" :href="to" class="inline-block">
     <span
       class="
-        bg-midnight
-        rounded-baseLink
         flex flex-row
         justify-center
         px-10
         py-6
+        bg-midnight
+        rounded-baseLink
       "
     >
       <span class="text-lg font-bold text-white">{{ text }}</span>
-      <span class="align-center flex flex-col justify-center ml-2">
+      <span class="flex flex-col justify-center ml-2 align-center">
         <SpriteIcon
           name="chevronRight"
           class="text-lightLavender-light w-1.5 h-3"
