@@ -3,25 +3,19 @@
     <li class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-end lg:mr-32">
       <BasePill text="Order &amp; pay at table" class="pill" />
     </li>
-    <li
-      class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-start lg:ml-32"
-    >
+    <li class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-end lg:ml-32">
       <BasePill text="Increase your revenue" class="pill" />
     </li>
     <li class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-end lg:mr-44">
       <BasePill text="Build customer loyalty" class="pill" />
     </li>
-    <li
-      class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-start lg:ml-44"
-    >
+    <li class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-end lg:ml-44">
       <BasePill text="Reservation management" class="pill" />
     </li>
     <li class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-end lg:mr-32">
       <BasePill text="All-in-one solution" class="pill" />
     </li>
-    <li
-      class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-start lg:ml-32"
-    >
+    <li class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-end lg:ml-32">
       <BasePill text="Quick setup" class="pill" />
     </li>
   </ul>
