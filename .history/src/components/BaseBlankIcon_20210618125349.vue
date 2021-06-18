@@ -6,7 +6,6 @@
       bg-gradient-to-b
       from-lightLavender-light
       to-lightLavender-dark
-      relative
       w-1.625
       h-1.625
     "
