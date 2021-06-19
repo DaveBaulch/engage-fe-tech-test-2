@@ -53,7 +53,7 @@ export default {
           },
           {
             opacity: 1,
-            duration: 4,
+            duration: 3,
           }
         );
       }

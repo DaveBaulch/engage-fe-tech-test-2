@@ -1,5 +1,5 @@
 <template>
-  <div class="gsap-skew relative z-0">
+  <div class="relative z-0">
     <div
       class="
         pt-skew
@@ -47,13 +47,25 @@ export default {
       const animationIsOkay = this.prefersReducedMotion();
       if (animationIsOkay) {
         gsap.fromTo(
-          ".gsap-skew",
+          ".gsap-circle",
+          { rotation: 0 },
+          {
+            rotation: 360,
+            duration: 10,
+            transformOrigin: "center",
+            repeat: -1,
+            ease: "none",
+          }
+        );
+
+        gsap.fromTo(
+          ".gsap-roundel",
           {
             opacity: 0,
           },
           {
             opacity: 1,
-            duration: 4,
+            duration: 3,
           }
         );
       }

@@ -1,5 +1,5 @@
 <template>
-  <div class="gsap-skew relative z-0">
+  <div class="relative z-0">
     <div
       class="
         pt-skew
@@ -41,27 +41,5 @@ import gsap from "gsap";
 
 export default {
   name: "FeatureSkew",
-  mixins: [prefersReducedMotion],
-  methods: {
-    animateSkew() {
-      const animationIsOkay = this.prefersReducedMotion();
-      if (animationIsOkay) {
-        gsap.fromTo(
-          ".gsap-skew",
-          {
-            opacity: 0,
-          },
-          {
-            opacity: 1,
-            duration: 4,
-          }
-        );
-      }
-    },
-  },
-
-  mounted() {
-    this.animateSkew();
-  },
 };
 </script>
