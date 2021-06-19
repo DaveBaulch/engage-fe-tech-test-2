@@ -61,7 +61,7 @@ export default {
           .delay(0.5);
         gsap
           .fromTo(
-            "li:nth-child(even) .gsap-pill",
+            "li:nth-child(even) .pill",
             {
               x: 40,
               opacity: 0,

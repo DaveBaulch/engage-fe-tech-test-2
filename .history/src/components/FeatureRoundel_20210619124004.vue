@@ -53,11 +53,13 @@ export default {
         gsap.fromTo(
           ".gsap-roundel",
           {
+            x: -20,
             opacity: 0,
           },
           {
+            x: 0,
             opacity: 1,
-            duration: 3,
+            duration: 2,
           }
         );
       }

@@ -39,7 +39,7 @@ export default {
           {
             x: 0,
             opacity: 1,
-            duration: 4,
+            duration: 2,
           }
         );
       }

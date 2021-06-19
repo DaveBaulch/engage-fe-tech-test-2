@@ -1,28 +1,28 @@
 <template>
   <ul role="list" class="md:grid md:grid-cols-2 lg:gap-8 debug">
     <li class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-end lg:mr-32">
-      <BasePill text="Order &amp; pay at table" class="gsap-pill" />
+      <BasePill text="Order &amp; pay at table" class="pill" />
     </li>
     <li
       class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-start lg:ml-32"
     >
-      <BasePill text="Increase your revenue" class="gsap-pill" />
+      <BasePill text="Increase your revenue" class="pill" />
     </li>
     <li class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-end lg:mr-44">
-      <BasePill text="Build customer loyalty" class="gsap-pill" />
+      <BasePill text="Build customer loyalty" class="pill" />
     </li>
     <li
       class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-start lg:ml-44"
     >
-      <BasePill text="Reservation management" class="gsap-pill" />
+      <BasePill text="Reservation management" class="pill" />
     </li>
     <li class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-end lg:mr-32">
-      <BasePill text="All-in-one solution" class="gsap-pill" />
+      <BasePill text="All-in-one solution" class="pill" />
     </li>
     <li
       class="mb-2.5 lg:mb-0 md:place-self-center lg:place-self-start lg:ml-32"
     >
-      <BasePill text="Quick setup" class="gsap-pill" />
+      <BasePill text="Quick setup" class="pill" />
     </li>
   </ul>
 </template>
@@ -44,7 +44,7 @@ export default {
       if (animationIsOkay) {
         gsap
           .fromTo(
-            "li:nth-child(odd) .gsap-pill",
+            "li:nth-child(odd) .pill",
             {
               x: -40,
               opacity: 0,
@@ -54,24 +54,7 @@ export default {
               opacity: 0.95,
               duration: 1,
               stagger: {
-                each: 1,
-              },
-            }
-          )
-          .delay(0.5);
-        gsap
-          .fromTo(
-            "li:nth-child(even) .gsap-pill",
-            {
-              x: 40,
-              opacity: 0,
-            },
-            {
-              x: 0,
-              opacity: 0.95,
-              duration: 1,
-              stagger: {
-                each: 1,
+                each: 0.5,
               },
             }
           )

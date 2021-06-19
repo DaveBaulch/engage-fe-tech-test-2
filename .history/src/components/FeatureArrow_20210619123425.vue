@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-97.5 h-27.625 debug gsap-arrow">
+  <div class="relative w-97.5 h-27.625 debug">
     <SpriteIcon
       name="arrow"
       class="w-97.5 h-27.625 z-10 absolute top-0 left-0"
@@ -30,19 +30,23 @@ export default {
     animatePills() {
       const animationIsOkay = this.prefersReducedMotion();
       if (animationIsOkay) {
-        gsap.fromTo(
-          ".gsap-arrow",
-          {
-            x: -20,
-            opacity: 0,
-          },
-          {
-            x: 0,
-            opacity: 1,
-            duration: 4,
-          }
-        );
-      }
+        gsap
+          .fromTo(
+            "li:nth-child(odd) .pill",
+            {
+              x: -40,
+              opacity: 0,
+            },
+            {
+              x: 0,
+              opacity: 0.95,
+              duration: 1,
+              stagger: {
+                each: 1,
+              },
+            }
+          )
+          .delay(0.5);
     },
   },
   mounted() {

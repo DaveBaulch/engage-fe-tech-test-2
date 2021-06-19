@@ -1,5 +1,5 @@
 <template>
-  <div class="gsap-phone">
+  <div class="phone">
     <div class="sm:hidden relative">
       <img
         src="@/assets/phone/frame.png"

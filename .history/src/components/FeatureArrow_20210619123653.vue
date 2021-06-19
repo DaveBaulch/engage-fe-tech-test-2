@@ -33,13 +33,11 @@ export default {
         gsap.fromTo(
           ".gsap-arrow",
           {
-            x: -20,
             opacity: 0,
           },
           {
-            x: 0,
             opacity: 1,
-            duration: 4,
+            duration: 2,
           }
         );
       }

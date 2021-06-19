@@ -30,18 +30,23 @@ export default {
     animatePills() {
       const animationIsOkay = this.prefersReducedMotion();
       if (animationIsOkay) {
-        gsap.fromTo(
-          ".gsap-arrow",
-          {
-            x: -20,
-            opacity: 0,
-          },
-          {
-            x: 0,
-            opacity: 1,
-            duration: 4,
-          }
-        );
+        gsap
+          .fromTo(
+            ".gsap-arrow",
+            {
+              x: -40,
+              opacity: 0,
+            },
+            {
+              x: 0,
+              opacity: 0.95,
+              duration: 1,
+              stagger: {
+                each: 1,
+              },
+            }
+          )
+          .delay(1);
       }
     },
   },

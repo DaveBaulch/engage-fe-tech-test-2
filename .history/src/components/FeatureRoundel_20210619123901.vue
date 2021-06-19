@@ -39,7 +39,7 @@ export default {
       const animationIsOkay = this.prefersReducedMotion();
       if (animationIsOkay) {
         gsap.fromTo(
-          ".gsap-circle",
+          ".circle",
           { rotation: 0 },
           {
             rotation: 360,
@@ -47,17 +47,6 @@ export default {
             transformOrigin: "center",
             repeat: -1,
             ease: "none",
-          }
-        );
-
-        gsap.fromTo(
-          ".gsap-roundel",
-          {
-            opacity: 0,
-          },
-          {
-            opacity: 1,
-            duration: 3,
           }
         );
       }
