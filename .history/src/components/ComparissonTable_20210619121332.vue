@@ -58,27 +58,27 @@
       </tr>
       <tr>
         <td class="py-1.5">Reservation management</td>
-        <td align="center"><BaseBlankIcon ariaText="No" /></td>
+        <td align="center"><BaseBlankIcon /></td>
         <td align="center"><BaseTickIcon ariaText="Yes" /></td>
       </tr>
       <tr>
         <td class="py-1.5">Mailshot feature</td>
-        <td align="center"><BaseBlankIcon ariaText="No" /></td>
+        <td align="center"><BaseBlankIcon /></td>
         <td align="center"><BaseTickIcon ariaText="Yes" /></td>
       </tr>
       <tr>
         <td class="py-1.5">Take deposits for bookings</td>
-        <td align="center"><BaseBlankIcon ariaText="No" /></td>
+        <td align="center"><BaseBlankIcon /></td>
         <td align="center"><BaseTickIcon ariaText="Yes" /></td>
       </tr>
       <tr>
         <td class="py-1.5">Limit table bookings</td>
-        <td align="center"><BaseBlankIcon ariaText="No" /></td>
+        <td align="center"><BaseBlankIcon /></td>
         <td align="center"><BaseTickIcon ariaText="Yes" /></td>
       </tr>
       <tr>
         <td class="py-1.5">Offer gift cards</td>
-        <td align="center"><BaseBlankIcon ariaText="No" /></td>
+        <td align="center"><BaseBlankIcon /></td>
         <td align="center">
           <BaseBlankIcon />
         </td>

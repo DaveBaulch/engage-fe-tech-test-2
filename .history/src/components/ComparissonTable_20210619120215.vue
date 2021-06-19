@@ -33,52 +33,52 @@
       </tr>
       <tr>
         <td class="py-1.5">Get started in 72hrs</td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
+        <td align="center"><BaseTickIcon /></td>
+        <td align="center"><BaseTickIcon /></td>
       </tr>
       <tr>
         <td class="py-1.5">Order at table</td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
+        <td align="center"><BaseTickIcon /></td>
+        <td align="center"><BaseTickIcon /></td>
       </tr>
       <tr>
         <td class="py-1.5">Loyalty campaigns</td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
+        <td align="center"><BaseTickIcon /></td>
+        <td align="center"><BaseTickIcon /></td>
       </tr>
       <tr>
         <td class="py-1.5">Vouchers</td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
+        <td align="center"><BaseTickIcon /></td>
+        <td align="center"><BaseTickIcon /></td>
       </tr>
       <tr>
         <td class="py-1.5">Point store</td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
+        <td align="center"><BaseTickIcon /></td>
+        <td align="center"><BaseTickIcon /></td>
       </tr>
       <tr>
         <td class="py-1.5">Reservation management</td>
-        <td align="center"><BaseBlankIcon ariaText="No" /></td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
+        <td align="center"><BaseBlankIcon /></td>
+        <td align="center"><BaseTickIcon /></td>
       </tr>
       <tr>
         <td class="py-1.5">Mailshot feature</td>
-        <td align="center"><BaseBlankIcon ariaText="No" /></td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
+        <td align="center"><BaseBlankIcon /></td>
+        <td align="center"><BaseTickIcon /></td>
       </tr>
       <tr>
         <td class="py-1.5">Take deposits for bookings</td>
-        <td align="center"><BaseBlankIcon ariaText="No" /></td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
+        <td align="center"><BaseBlankIcon /></td>
+        <td align="center"><BaseTickIcon /></td>
       </tr>
       <tr>
         <td class="py-1.5">Limit table bookings</td>
-        <td align="center"><BaseBlankIcon ariaText="No" /></td>
-        <td align="center"><BaseTickIcon ariaText="Yes" /></td>
+        <td align="center"><BaseBlankIcon /></td>
+        <td align="center"><BaseTickIcon /></td>
       </tr>
       <tr>
         <td class="py-1.5">Offer gift cards</td>
-        <td align="center"><BaseBlankIcon ariaText="No" /></td>
+        <td align="center"><BaseBlankIcon /></td>
         <td align="center">
           <BaseBlankIcon />
         </td>

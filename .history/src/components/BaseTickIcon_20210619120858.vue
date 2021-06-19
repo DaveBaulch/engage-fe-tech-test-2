@@ -17,7 +17,7 @@
         class="absolute top-0 right-0 w-5 h-5 text-white"
       />
     </div>
-    <span v-if="ariaText" class="sr-only">{{ ariaText }}</span>
+    <span class="sr-only">{{ ariaText }}</span>
   </div>
 </template>
 

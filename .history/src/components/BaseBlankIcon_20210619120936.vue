@@ -4,7 +4,7 @@
       class="w-1.625 h-1.625 rounded-full bg-blankIcon"
       aria-hidden="true"
     ></div>
-    <span v-if="ariaText" class="sr-only">{{ ariaText }}</span>
+    <v-if="ariaText" span class="sr-only">{{ ariaText }}</v-if=>
   </div>
 </template>
 

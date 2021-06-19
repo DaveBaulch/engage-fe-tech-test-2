@@ -33,7 +33,7 @@ export default {
     ariaText: {
       type: String,
       required: false,
-      default: "",
+      default: null,
     },
   },
 };
