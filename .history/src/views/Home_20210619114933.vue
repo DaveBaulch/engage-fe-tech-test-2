@@ -157,11 +157,19 @@
         </section>
       </div>
     </div>
+
+    <div class="hidden">
+      <BasePill />
+      <FeatureSkew />
+      <SpriteGradient />
+      <SpriteIcon />
+    </div>
   </main>
 </template>
 
 <script>
 import BaseLink from "@/components/BaseLink";
+import BasePill from "@/components/BasePill";
 import ComparissonList1 from "@/components/ComparissonList1";
 import ComparissonList2 from "@/components/ComparissonList2";
 import ComparissonTable from "@/components/ComparissonTable";
@@ -171,12 +179,14 @@ import FeatureRoundel from "@/components/FeatureRoundel";
 import FeatureSkew from "@/components/FeatureSkew";
 import PillList from "@/components/PillList";
 import PlansAndPricing from "@/components/PlansAndPricing";
+import SpriteGradient from "@/components/SpriteGradient";
 import SpriteIcon from "@/components/SpriteIcon";
 
 export default {
   name: "Index",
   components: {
     BaseLink,
+    BasePill,
     FeatureArrow,
     FeaturePhone,
     FeatureRoundel,
@@ -186,6 +196,7 @@ export default {
     ComparissonTable,
     ComparissonList1,
     ComparissonList2,
+    SpriteGradient,
     SpriteIcon,
   },
   metaInfo() {
@@ -196,3 +207,21 @@ export default {
   methods: {},
 };
 </script>
+
+<style>
+.main {
+  background-color: #f1f0fa;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main {
+    background: linear-gradient(
+      to bottom,
+      #f1f0fa 806px,
+      #f1f0fa 806px,
+      white 806px,
+      white 100%
+    );
+  }
+}
+</style>

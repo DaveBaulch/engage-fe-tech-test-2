@@ -33,23 +33,3 @@
     );
   }
 }
-
-.skew {
-  transform: perspective(100em) translateX(-108px) rotateY(-29deg);
-  width: 116%;
-}
-
-.phone-img {
-  width: 152px;
-  height: 416px;
-}
-
-.phone-mask {
-  mask-image: url("assets/phone/mask.png");
-  mask-size: 152px 416px;
-}
-
-.phone-mask2 {
-  mask-image: url("assets/phone/mask.png");
-  mask-size: 230px 628px;
-}

@@ -45,11 +45,11 @@
 }
 
 .phone-mask {
-  mask-image: url("assets/phone/mask.png");
+  mask-image: url("../assets/phone/mask.png");
   mask-size: 152px 416px;
 }
 
 .phone-mask2 {
-  mask-image: url("assets/phone/mask.png");
+  mask-image: url("../assets/phone/mask.png");
   mask-size: 230px 628px;
 }

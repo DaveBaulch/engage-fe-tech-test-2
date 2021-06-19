@@ -26,13 +26,16 @@
 
 <script>
 import SpriteIcon from "@/components/SpriteIcon";
+import BaseTickIcon from "@/components/BaseTickIcon";
 import ComparissonList1List from "@/components/ComparissonList1List";
-
+import ComparissonList1List from './ComparissonList1List.vue';
 export default {
   name: "ComparissonList1",
   components: {
     SpriteIcon,
-    ComparissonList1List,
+    BaseTickIcon,
+    ComparissonList1List
+    ComparissonList1List
   },
 };
 </script>

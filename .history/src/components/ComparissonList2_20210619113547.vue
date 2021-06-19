@@ -49,8 +49,8 @@
           class="
             top-full
             -left-0
-            w-101percent
             absolute
+            w-full
             h-full
             origin-bottom-left
             transform

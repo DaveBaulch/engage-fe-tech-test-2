@@ -157,36 +157,52 @@
         </section>
       </div>
     </div>
+
+    AndPricing />
+            </div>
+
+            <div class="lg:hidden">
+              <ComparissonTable />
+            </div>
+
+            <div class="l
   </main>
 </template>
 
 <script>
 import BaseLink from "@/components/BaseLink";
+// import BaseTickIcon from "@/components/BaseTickIcon";
+// import BasePill from "@/components/BasePill";
 import ComparissonList1 from "@/components/ComparissonList1";
 import ComparissonList2 from "@/components/ComparissonList2";
 import ComparissonTable from "@/components/ComparissonTable";
 import FeatureArrow from "@/components/FeatureArrow";
 import FeaturePhone from "@/components/FeaturePhone";
 import FeatureRoundel from "@/components/FeatureRoundel";
-import FeatureSkew from "@/components/FeatureSkew";
+// import FeatureSkew from "@/components/FeatureSkew";
 import PillList from "@/components/PillList";
 import PlansAndPricing from "@/components/PlansAndPricing";
-import SpriteIcon from "@/components/SpriteIcon";
+// import SpriteGradient from "@/components/SpriteGradient";
+// import SpriteIcon from "@/components/SpriteIcon";
 
 export default {
   name: "Index",
   components: {
     BaseLink,
+    // BaseTickIcon,
+    // BasePill,
     FeatureArrow,
     FeaturePhone,
     FeatureRoundel,
-    FeatureSkew,
+    // FeatureSkew,
+    // PageHeader,
     PillList,
     PlansAndPricing,
     ComparissonTable,
     ComparissonList1,
     ComparissonList2,
-    SpriteIcon,
+    // SpriteGradient,
+    // SpriteIcon,
   },
   metaInfo() {
     return {
@@ -196,3 +212,21 @@ export default {
   methods: {},
 };
 </script>
+
+<style>
+.main {
+  background-color: #f1f0fa;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main {
+    background: linear-gradient(
+      to bottom,
+      #f1f0fa 806px,
+      #f1f0fa 806px,
+      white 806px,
+      white 100%
+    );
+  }
+}
+</style>

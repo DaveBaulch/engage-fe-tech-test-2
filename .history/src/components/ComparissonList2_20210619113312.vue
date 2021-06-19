@@ -9,7 +9,7 @@
           rounded-tl-md rounded-tr-md
           pt-14
           pb-10
-          pl-16
+          pl-10
           pr-10
         "
       >
@@ -49,8 +49,8 @@
           class="
             top-full
             -left-0
-            w-101percent
             absolute
+            w-full
             h-full
             origin-bottom-left
             transform

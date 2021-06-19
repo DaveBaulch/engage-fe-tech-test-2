@@ -26,12 +26,13 @@
 
 <script>
 import SpriteIcon from "@/components/SpriteIcon";
+import BaseTickIcon from "@/components/BaseTickIcon";
 import ComparissonList1List from "@/components/ComparissonList1List";
-
 export default {
   name: "ComparissonList1",
   components: {
     SpriteIcon,
+    BaseTickIcon,
     ComparissonList1List,
   },
 };

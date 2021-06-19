@@ -157,6 +157,12 @@
         </section>
       </div>
     </div>
+
+    <div class="hidden">
+      <FeatureSkew />
+      <SpriteGradient />
+      <SpriteIcon />
+    </div>
   </main>
 </template>
 
@@ -171,6 +177,7 @@ import FeatureRoundel from "@/components/FeatureRoundel";
 import FeatureSkew from "@/components/FeatureSkew";
 import PillList from "@/components/PillList";
 import PlansAndPricing from "@/components/PlansAndPricing";
+import SpriteGradient from "@/components/SpriteGradient";
 import SpriteIcon from "@/components/SpriteIcon";
 
 export default {
@@ -186,6 +193,7 @@ export default {
     ComparissonTable,
     ComparissonList1,
     ComparissonList2,
+    SpriteGradient,
     SpriteIcon,
   },
   metaInfo() {
@@ -196,3 +204,21 @@ export default {
   methods: {},
 };
 </script>
+
+<style>
+.main {
+  background-color: #f1f0fa;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main {
+    background: linear-gradient(
+      to bottom,
+      #f1f0fa 806px,
+      #f1f0fa 806px,
+      white 806px,
+      white 100%
+    );
+  }
+}
+</style>

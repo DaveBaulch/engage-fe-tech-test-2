@@ -14,9 +14,9 @@
 
 @tailwind utilities;
 
-/* .debug {
+.debug {
   outline: 1px solid #f0f;
-} */
+}
 
 .main {
   background-color: #f1f0fa;

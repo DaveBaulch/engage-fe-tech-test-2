@@ -196,3 +196,21 @@ export default {
   methods: {},
 };
 </script>
+
+<style>
+.main {
+  background-color: #f1f0fa;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main {
+    background: linear-gradient(
+      to bottom,
+      #f1f0fa 806px,
+      #f1f0fa 806px,
+      white 806px,
+      white 100%
+    );
+  }
+}
+</style>

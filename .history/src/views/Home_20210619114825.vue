@@ -157,6 +157,15 @@
         </section>
       </div>
     </div>
+
+    AndPricing />
+            </div>
+
+            <div class="lg:hidden">
+              <ComparissonTable />
+            </div>
+
+            <div class="l
   </main>
 </template>
 
@@ -168,10 +177,8 @@ import ComparissonTable from "@/components/ComparissonTable";
 import FeatureArrow from "@/components/FeatureArrow";
 import FeaturePhone from "@/components/FeaturePhone";
 import FeatureRoundel from "@/components/FeatureRoundel";
-import FeatureSkew from "@/components/FeatureSkew";
 import PillList from "@/components/PillList";
 import PlansAndPricing from "@/components/PlansAndPricing";
-import SpriteIcon from "@/components/SpriteIcon";
 
 export default {
   name: "Index",
@@ -180,13 +187,13 @@ export default {
     FeatureArrow,
     FeaturePhone,
     FeatureRoundel,
-    FeatureSkew,
     PillList,
     PlansAndPricing,
     ComparissonTable,
     ComparissonList1,
     ComparissonList2,
-    SpriteIcon,
+    // SpriteGradient,
+    // SpriteIcon,
   },
   metaInfo() {
     return {
@@ -196,3 +203,21 @@ export default {
   methods: {},
 };
 </script>
+
+<style>
+.main {
+  background-color: #f1f0fa;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main {
+    background: linear-gradient(
+      to bottom,
+      #f1f0fa 806px,
+      #f1f0fa 806px,
+      white 806px,
+      white 100%
+    );
+  }
+}
+</style>
