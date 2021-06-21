@@ -26,8 +26,8 @@
             ariaHidden="false"
             class="
               inline-block
-              w-[194px]
-              h-[26px]
+              w-12.125
+              h-1.578125
               transform
               scale-75
               md:scale-100
@@ -52,6 +52,7 @@
                     lg:scale-68
                     xl:scale-100
                     transform
+                    w-[762px]
                   "
                   aria-hidden="true"
                 >

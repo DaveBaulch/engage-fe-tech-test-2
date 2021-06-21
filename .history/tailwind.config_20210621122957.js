@@ -1,6 +1,5 @@
 module.exports = {
-  mode: "jit",
-  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  purge: ["./public/**/*.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
@@ -47,14 +46,14 @@ module.exports = {
         7.6875: "7.6875rem",
         8.4375: "8.4375rem",
         9.5623: "9.5623rem",
-        // 12.125: "12.125rem",
+        12.125: "12.125rem",
         97.5: "97.5rem",
         "101percent": "101%",
       },
       height: {
         1.375: "1.375rem",
         1.625: "1.625rem",
-        // 1.578125: "1.578125rem",
+        1.578125: "1.578125rem",
         3.9375: "3.9375rem",
         27.625: "27.625rem",
       },

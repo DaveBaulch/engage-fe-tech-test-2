@@ -26,8 +26,13 @@
             ariaHidden="false"
             class="
               inline-block
+              <!--
+              w-12.125
+              h-1.578125
+              -->
               w-[194px]
-              h-[26px]
+              h-[25px]
+              ]
               transform
               scale-75
               md:scale-100

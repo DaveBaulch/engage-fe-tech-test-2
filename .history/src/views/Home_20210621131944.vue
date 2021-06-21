@@ -27,7 +27,7 @@
             class="
               inline-block
               w-[194px]
-              h-[26px]
+              h-[25px]
               transform
               scale-75
               md:scale-100

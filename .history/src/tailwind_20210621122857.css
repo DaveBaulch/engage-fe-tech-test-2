@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+
+@layer base {
+  @font-face {
+    font-family: Intello-n5;
+    src: url(./assets/fonts/intello-n5.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: Intello-n7;
+    src: url(./assets/fonts/intello-n7.woff2) format("woff2");
+  }
+}
+
+@tailwind utilities;
+
+/* .debug {
+  outline: 1px solid #f0f;
+} */
+
+.main {
+  background-color: #f1f0fa;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main {
+    background: linear-gradient(
+      to bottom,
+      #f1f0fa 806px,
+      #f1f0fa 806px,
+      white 806px,
+      white 100%
+    );
+  }
+}
+
+.skew {
+  transform: perspective(100em) translateX(-108px) rotateY(-29deg);
+  width: 116%;
+}
+
+.phone-img {
+  width: 152px;
+  height: 416px;
+}
+
+.phone-mask {
+  mask-image: url("assets/phone/mask.png");
+  mask-size: 152px 416px;
+}
+
+.phone-mask2 {
+  mask-image: url("assets/phone/mask.png");
+  mask-size: 230px 628px;
+}
