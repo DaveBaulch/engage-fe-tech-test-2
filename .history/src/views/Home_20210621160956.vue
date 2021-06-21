@@ -24,7 +24,14 @@
             name="poweredByHeineken"
             ariaLabel="Powered by Heineken"
             ariaHidden="false"
-            class="inline-block w-[146px] h-[18px] transform md:scale-[1.3356]"
+            class="
+              inline-block
+              w-12.125
+              h-1.578125
+              transform
+              scale-75
+              md:scale-100
+            "
           />
         </div>
 
@@ -32,21 +39,9 @@
           <div class="lg:grid lg:grid-cols-12">
             <div class="lg:col-start-3 lg:col-span-8 lg:px-10 debug relative">
               <div
-                class="
-                  w-97.5
-                  h-27.625
-                  absolute
-                  debug
-                  -top-72
-                  -left-71
-                  md:-top-25 md:-left-87.5
-                  scale-62
-                  md:scale-100
-                  z-10
-                  transform
-                "
+                class="absolute debug -top-72 -left-71 md:-top-25 md:-left-87.5"
               >
-                <FeatureArrow />
+                <FeatureArrow class="scale-62 md:scale-100 z-10 transform" />
               </div>
 
               <div class="-right-24 -top-32 md:-right-16 debug absolute z-10">

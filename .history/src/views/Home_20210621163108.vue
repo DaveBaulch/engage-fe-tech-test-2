@@ -24,7 +24,14 @@
             name="poweredByHeineken"
             ariaLabel="Powered by Heineken"
             ariaHidden="false"
-            class="inline-block w-[146px] h-[18px] transform md:scale-[1.3356]"
+            class="
+              inline-block
+              w-[195px]
+              h-[24.25px]
+              transform
+              scale-75
+              md:scale-100
+            "
           />
         </div>
 
@@ -40,13 +47,9 @@
                   -top-72
                   -left-71
                   md:-top-25 md:-left-87.5
-                  scale-62
-                  md:scale-100
-                  z-10
-                  transform
                 "
               >
-                <FeatureArrow />
+                <FeatureArrow class="scale-62 md:scale-100 z-10 transform" />
               </div>
 
               <div class="-right-24 -top-32 md:-right-16 debug absolute z-10">

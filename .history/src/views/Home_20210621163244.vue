@@ -24,7 +24,14 @@
             name="poweredByHeineken"
             ariaLabel="Powered by Heineken"
             ariaHidden="false"
-            class="inline-block w-[146px] h-[18px] transform md:scale-[1.3356]"
+            class="
+              inline-block
+              w-[195px]
+              h-[24.25px]
+              transform
+              scale-75
+              md:scale-100
+            "
           />
         </div>
 

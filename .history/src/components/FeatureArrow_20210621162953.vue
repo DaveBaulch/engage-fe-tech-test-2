@@ -1,5 +1,5 @@
 <template>
-  <div class="debug gsap-arrow relative w-full h-full">
+  <div class="debug gsap-arrow relative">
     <SpriteIcon
       name="arrow"
       class="absolute top-0 left-0 z-10 w-full h-full"

@@ -24,7 +24,14 @@
             name="poweredByHeineken"
             ariaLabel="Powered by Heineken"
             ariaHidden="false"
-            class="inline-block w-[146px] h-[18px] transform md:scale-[1.3356]"
+            class="
+              inline-block
+              w-[194px]
+              h-[26px]
+              transform
+              scale-75
+              md:scale-100
+            "
           />
         </div>
 
@@ -32,32 +39,14 @@
           <div class="lg:grid lg:grid-cols-12">
             <div class="lg:col-start-3 lg:col-span-8 lg:px-10 debug relative">
               <div
-                class="
-                  w-97.5
-                  h-27.625
-                  absolute
-                  debug
-                  -top-72
-                  -left-71
-                  md:-top-25 md:-left-87.5
-                  scale-62
-                  md:scale-100
-                  z-10
-                  transform
-                "
+                class="absolute debug -top-72 -left-71 md:-top-25 md:-left-87.5"
               >
-                <FeatureArrow />
+                <FeatureArrow class="scale-62 md:scale-100 z-10 transform" />
               </div>
 
               <div class="-right-24 -top-32 md:-right-16 debug absolute z-10">
                 <FeatureRoundel
-                  class="
-                    scale-68
-                    md:scale-100
-                    lg:scale-68
-                    xl:scale-100
-                    transform
-                  "
+                  class="w-[153px] md:w-[225px] lg:-[153px] xl:w-[225px]"
                   aria-hidden="true"
                 >
                   <SpriteIcon
