@@ -1,4 +1,7 @@
+version: '3.7'
+
 services:
+
   my-app:
     container_name: my-app
     build:
@@ -12,5 +15,5 @@ services:
     environment:
       - CHOKIDAR_USEPOLLING=true
 
-# https://mherman.org/blog/dockerizing-a-vue-app/
-# docker-compose up -d --build
+#https://mherman.org/blog/dockerizing-a-vue-app/
+      # docker-compose up -d --build
