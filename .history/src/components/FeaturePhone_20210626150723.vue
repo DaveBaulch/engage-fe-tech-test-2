@@ -1,0 +1,59 @@
+<template>
+  <div class="gsap-phone">
+    <div class="sm:hidden relative">
+      <img
+        src="@/assets/phone/frame.png"
+        class="phone-img absolute top-0 left-0"
+        alt=""
+        aria-hidden="true"
+      />
+      <video width="152" height="416" class="phone-mask" autoplay muted>
+        <source src="@/assets/video/walkthrough.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="sm:block relative hidden">
+      <img
+        src="@/assets/phone/frame.png"
+        class="absolute top-0 left-0"
+        alt=""
+        aria-hidden="true"
+      />
+      <video width="230" height="628" class="phone-mask2" autoplay muted>
+        <source src="@/assets/video/walkthrough.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+</template>
+
+<script>
+import prefersReducedMotion from "@/mixins/prefersReducedMotion";
+import gsap from "gsap";
+
+export default {
+  name: "FeaturePhone",
+  mixins: [prefersReducedMotion],
+  methods: {
+    animatePhone() {
+      const animationIsOkay = this.prefersReducedMotion();
+      if (animationIsOkay) {
+        gsap
+          .fromTo(
+            ".gsap-phone",
+            {
+              opacity: 0,
+            },
+            {
+              opacity: 1,
+              duration: 1,
+            }
+          )
+          .delay(0.5);
+      }
+    },
+  },
+  mounted() {
+    this.animatePhone();
+  },
+};
+</script>

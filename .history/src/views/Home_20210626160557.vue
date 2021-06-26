@@ -13,7 +13,7 @@
               xl:leading-12
             "
           >
-            The App for Pubs and Bars
+            The App for Pubs and Bars and stuff
           </h1>
         </div>
         <div class="mt-5 text-center">

@@ -129,9 +129,8 @@
             md:px-0
             mt-24
             lg:mt-0
-            lg:-translate-y-120
-            xl:-translate-y-135
             lg:transform
+            xl:-translate-y-135
           "
         >
           <PillList class="lg:mb-0 mb-10" />

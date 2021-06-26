@@ -128,8 +128,7 @@
             px-1.125
             md:px-0
             mt-24
-            lg:mt-0
-            lg:-translate-y-120
+            lg:mt-0lg:-translate-y-120
             xl:-translate-y-135
             lg:transform
           "
