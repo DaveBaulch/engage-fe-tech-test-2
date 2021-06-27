@@ -12,5 +12,9 @@ Vue.use(VueMeta);
 
 new Vue({
   router,
+  created: function () {
+    const html = document.documentElement; // returns the html tag
+  },
+  // store,
   render: (h) => h(App),
 }).$mount("#app");
